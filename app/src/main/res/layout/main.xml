@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<WebView-->
+        <!--android:id="@+id/glview_call"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="center" />-->
+
+    <!--<android.opengl.GLSurfaceView
+        android:id="@+id/glview_call"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <android.view.SurfaceView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+
+
+    <LinearLayout
+        android:id="@+id/call_chat_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#64000000"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/chat_input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:backgroundTint="@color/pn_blue"
+            android:hint="Enter Message..."
+            android:textColor="#FFF"
+            android:textColorHint="@color/white" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/round_button_send"
+                android:contentDescription="Send"
+                android:onClick="sendMessage"
+                android:src="@drawable/ic_action_send_now" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@id/call_chat_box"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/hang_up"
+        android:layout_toStartOf="@+id/hang_up"
+        android:divider="@null"
+        android:dividerHeight="1dp"
+        android:minWidth="300dp"
+        android:stackFromBottom="true" />
+
+    <ImageButton
+        android:id="@+id/mute"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/hang_up"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/muted"
+        android:hapticFeedbackEnabled="true"
+        android:scaleType="fitCenter"
+        />
+    <ImageButton
+        android:id="@+id/hang_up"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_button"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="hangup"
+        android:src="@drawable/ic_action_end_call" />
+</RelativeLayout>

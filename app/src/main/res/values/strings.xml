@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StandByRTC</string>
+    <string name="host">52.211.81.49</string>
+    <string name="port">4000</string>
+    <string name="no_call_history">No friends</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_phone">Phone</string>
+    <string name="incoming_call">Incoming Call&#8230;</string>
+    <string name="incoming_call_from">Marouane Boutaib</string>
+    <string name="action_sign_in_short">Chat Video</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="no_joinable_rooms">No available rooms, create your own!</string>
+    <string name="title_activity_register">RegisterActivity</string>
+</resources>
