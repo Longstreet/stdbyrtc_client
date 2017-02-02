@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="fr.pchab.androidrtc.com.mrwn.stdbyrtc.RegisterActivity">
+    tools:context="com.mrwn.stdbyrtc.RegisterActivity">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

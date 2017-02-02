@@ -1,4 +1,4 @@
-package com.mrwn.stdbyrtc;
+package com.mrwn.webrtc;
 
 import android.media.AudioManager;
 import android.media.MediaPlayer;

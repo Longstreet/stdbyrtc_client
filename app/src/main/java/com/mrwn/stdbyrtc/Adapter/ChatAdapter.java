@@ -13,12 +13,11 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.mrwn.stdbyrtc.Model.ChatMessage;
+import com.mrwn.stdbyrtc.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.List;
-
-import fr.pchab.androidrtc.R;
 
 public class ChatAdapter extends ArrayAdapter<ChatMessage> {
     private static final long FADE_TIMEOUT = 50000;

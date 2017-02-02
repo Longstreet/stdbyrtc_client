@@ -1,4 +1,4 @@
-package com.mrwn.stdbyrtc;
+package com.mrwn.webrtc;
 
 public class PeerConnectionParameters {
     public final boolean videoCallEnabled;

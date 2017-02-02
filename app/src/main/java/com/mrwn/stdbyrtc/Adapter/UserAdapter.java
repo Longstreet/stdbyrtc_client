@@ -11,11 +11,10 @@ import android.widget.TextView;
 
 import com.mrwn.stdbyrtc.MainActivity;
 import com.mrwn.stdbyrtc.Model.User;
+import com.mrwn.stdbyrtc.R;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import fr.pchab.androidrtc.R;
 
 /**
  * Created by Marouane on 12-09-2016

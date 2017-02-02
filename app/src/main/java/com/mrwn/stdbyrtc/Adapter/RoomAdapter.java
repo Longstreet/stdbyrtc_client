@@ -11,13 +11,12 @@ import android.widget.TextView;
 
 import com.mrwn.stdbyrtc.MainActivity;
 import com.mrwn.stdbyrtc.Model.Room;
+import com.mrwn.stdbyrtc.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import fr.pchab.androidrtc.R;
 
 /**
  * Created by Marouane on 12-09-2016

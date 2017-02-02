@@ -29,6 +29,8 @@ import android.widget.Toast;
 
 import com.mrwn.stdbyrtc.Adapter.ChatAdapter;
 import com.mrwn.stdbyrtc.Model.ChatMessage;
+import com.mrwn.webrtc.PeerConnectionParameters;
+import com.mrwn.webrtc.WebRtcClient;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -36,8 +38,6 @@ import org.webrtc.MediaStream;
 
 import java.util.LinkedList;
 import java.util.List;
-
-import fr.pchab.androidrtc.R;
 
 public class RtcActivity extends ListActivity implements WebRtcClient.RtcListener {
     private static final String VIDEO_CODEC_VP9 = "VP8";

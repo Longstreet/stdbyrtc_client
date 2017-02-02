@@ -46,8 +46,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
-import fr.pchab.androidrtc.R;
-
 public class MainActivity extends ListActivity {
     private static UserAdapter mUserAdapter;
     public ArrayList<HistoryItem> arrayOfUsers;
